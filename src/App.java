@@ -16,21 +16,21 @@ public class App {
         empregado.getFirstName("De Tal");
         empregado.setSalary( 1);
         empregado.calcularSalarioAnunal();
-        //empregado.mostrarDaDodos();
+        
 
         Empregado empregado2 = new Empregado();
         empregado2.getFirstName("Ciclano");
         empregado2.getLastName("De Tal");
-        empregado2.setSalary(2);
+        empregado2.setSalary(-2);
         empregado2.calcularSalarioAnunal();
-       //empregado2.mostrarDaDodos();
+       
 
         Empregado empregado3 = new Empregado();
         empregado3.getFirstName("Beltrano");
         empregado3.getLastName("De Tal");
-        empregado3.setSalary(-3);
+        empregado3.setSalary(3);
         empregado3.calcularSalarioAnunal();
-        //empregado3.mostrarDaDodos();
+        
 
         
     }

@@ -16,12 +16,12 @@ public class Empregado {
     public double calcularSalarioAnunal() {
 
         if (salary < 0) {
-            System.out.printf("Salario não pode ser negativo. Salário anual: %s. ",
+            System.out.printf("Salario não pode ser negativo. Salário anual: %s. \n",
                     this.salary = 0);
         } else {
 
             this.salary = salary * 12;
-            System.out.printf("Salário anual:\n",
+            System.out.printf("O %s Salário anual: %s\n",
                     this.firstName + this.lastName, this.salary);
 
             // System.out.printf(firstName, null)("Salário anual:\n",
